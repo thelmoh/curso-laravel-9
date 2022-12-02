@@ -12,6 +12,10 @@
     <input type="password" name="password" id="password" class="form-control">
 </div>
 <div class="mb-3">
+    <label for="formFile" class="form-label">Foto:</label>
+    <input class="form-control" type="file" id="formFile" name="image">
+  </div>
+<div class="mb-3">
     <input type="submit" value="Enviar" class="btn btn-primary">
     <a href="{{route('users.index')}}" class="btn btn-info">Voltar</a>
 </div>

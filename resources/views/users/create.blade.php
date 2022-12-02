@@ -4,7 +4,7 @@
 
     @include('includes.validations-form')
 
-    <form action="{{route('users.store')}}" method="POST">
+    <form action="{{route('users.store')}}" method="POST" enctype="multipart/form-data">
         <legend>Cadastro de Usuários</legend>
         @include('users._partials.form')
     </form>
